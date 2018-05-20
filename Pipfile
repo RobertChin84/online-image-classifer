@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+pandas = "*"
+
+[dev-packages]
+"flake8" = "*"
+pytest = "*"
+mypy = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.6"
